@@ -1,6 +1,9 @@
 # nodejs
 
-Installs nodejs from source. Following attributes may be overridden:<br />
+Installs nodejs from source. <br />
+usage: include_recipe 'nodejs::default'<br />
+
+Following attributes may be overridden:<br />
 
 node[:nodejs][:version] ==> Version of nodejs to be deployed, default is 0.10.20<br />
 node[:nodejs][:downloadURL] ==> nodejs tar file download url, default is "http://nodejs.org/dist/v#{node[:nodejs][:version]}/"<br />
