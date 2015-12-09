@@ -1,5 +1,5 @@
 #
-# Cookbook Name:: nodejs_macys
+# Cookbook Name:: nodejs
 # Recipe:: default
 #
 # Copyright 2015, YOUR_COMPANY_NAME
